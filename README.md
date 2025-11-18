@@ -1,15 +1,15 @@
-🏥 Healthcare Data Analysis & AI Recommendation System
+**🏥 Healthcare Data Analysis & AI Recommendation System**
 
 A complete end-to-end data analytics and machine learning project using a healthcare dataset.
 This project includes EDA, Supervised Learning, Unsupervised Anomaly Detection, and an AI Doctor Recommendation Generator.
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project analyzes a healthcare dataset to understand patient demographics, medical conditions, billing patterns, and test results.
 It uses machine learning to predict Test Results and employs Isolation Forest to detect anomalies in billing amounts.
 An AI-powered function generates a doctor-style medical recommendation based on model predictions.
 
-📂 Dataset
+**📂 Dataset**
 
 Source: Kaggle
 Dataset columns include:
@@ -33,8 +33,8 @@ Test Results	Continuous numerical value
 
 ⚠️ Dataset not included in this repository (ignored intentionally using .gitignore).
 
-🧪 Task Breakdown
-🧹 Task 1 — Exploratory Data Analysis (EDA)
+**🧪 Task Breakdown**
+**🧹 Task 1 — Exploratory Data Analysis (EDA)**
 
 Performed detailed analysis using pandas, matplotlib, and seaborn.
 
@@ -62,7 +62,7 @@ Billing Amounts show a wide range with few very high outliers.
 
 Admission types are mostly Emergency or Urgent.
 
-🤖 Task 2 — Supervised Learning: Predict Test Results
+**🤖 Task 2 — Supervised Learning: Predict Test Results**
 ✔ Steps Performed
 
 Cleaned and pre-processed data
@@ -85,7 +85,7 @@ Displayed Predicted vs Actual results
 
 The model successfully learned patterns from patient data and produced reasonably accurate predictions.
 
-⚠️ Task 3 — Unsupervised Learning: Anomaly Detection (Billing Amount)
+**⚠️ Task 3 — Unsupervised Learning: Anomaly Detection (Billing Amount)**
 
 Using Isolation Forest, detected unusually high or low billing amounts.
 
@@ -105,7 +105,7 @@ Data entry errors
 
 A scatter plot showing normal vs anomalous points.
 
-🩺 Task 4 — AI Doctor Recommendation Generator
+**🩺 Task 4 — AI Doctor Recommendation Generator**
 
 An AI-powered function generates a doctor-like recommendation using:
 
@@ -117,7 +117,7 @@ Current Medication
 
 Predicted Test Result
 
-✔ Example Output
+**✔ Example Output**
 🩺 AI Doctor Recommendation
 
 Based on the predicted test result, your current health condition appears to be in the serious concern range.
@@ -132,7 +132,7 @@ Recommended Advice:
 
 Please consult your healthcare provider for a detailed diagnosis and personalized treatment plan.
 
-📁 Project Structure
+**📁 Project Structure**
 healthcare_project/
 │
 ├── healthcare_analysis.ipynb     # Main notebook (EDA + ML + Anomaly Detection + AI)
@@ -156,7 +156,7 @@ pip install -r requirements.txt
 4️⃣ Open the notebook
 jupyter notebook
 
-📦 Recommended requirements.txt
+**📦 Recommended requirements.txt**
 
 Add this file if not present:
 
@@ -167,7 +167,7 @@ seaborn
 scikit-learn
 jupyter
 
-🚀 Future Improvements
+**🚀 Future Improvements**
 
 Deploy model using FastAPI
 
@@ -177,7 +177,7 @@ Build a Streamlit web UI
 
 Add better hyperparameter tuning (RandomizedSearchCV / GridSearchCV)
 
-🙌 Acknowledgements
+**🙌 Acknowledgements**
 
 Dataset by Prasad22 on Kaggle
 
